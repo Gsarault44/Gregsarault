@@ -1,0 +1,222 @@
+/*
+*************************************************
+
+PROJECT NAME
+General Screen Styles
+
+Created by the epic SuperFriendly team.
+http://superfriend.ly/
+
+*************************************************
+*/
+
+
+/*-------------------------------------------    
+    Fonts     
+-------------------------------------------*/
+
+
+
+/*-------------------------------------------    
+    Flag
+	(Thanks Jeremy: http://adactio.com/journal/5429/)
+-------------------------------------------*/
+body:after { content: 'mini'; display: none; }
+
+
+
+/*-------------------------------------------    
+    Base     
+-------------------------------------------*/
+* { margin: 0; padding: 0; }
+html { font-size: 62.5%; } /* for rems */
+body { font: normal 62.5%/1.5 'Lato', sans-serif; color: #333; }
+
+
+/* block level */
+
+h1, .h1 { font: bold 4.2rem 'PT Mono', sans-serif; margin: 0 0 0.5em; }
+h2, .h2 { font: bold 1.8rem 'PT Mono', sans-serif; margin: 0 0 1em; }
+h3, .h3 { font: bold 1.5rem 'PT Mono', sans-serif; margin: 0 0 1em; }
+h4, h5, h6, .h4, .h5, .h6 { font: bold 1.2rem 'PT Mono', sans-serif; margin: 0 0 1em; }
+
+p, ul, dl, ol, table { font-size: 16px; font-size: 1.6rem; margin: 0 0 1.5em; }
+
+form { margin: 0 0 1.5em; }
+
+/* inline */
+
+label { font-size: 1.6rem; }
+input, select, textarea {  }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { }
+input.empty::-webkit-input-placeholder, textarea.empty::-webkit-input-placeholder { color: red; }
+input.empty:-moz-placeholder, textarea.empty:-moz-placeholder { color: red; }
+.error { color: red; }
+
+table { }
+    td { padding: 0.25em 1em; border-top: 1px solid #aaa; }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+mark { background: none; font-style: normal; }
+
+video { width: 100%; height: auto; }
+
+a { text-decoration: none; .transition(all, 0.25s, linear); color:#589b00; }
+a:hover, a:focus { color: orange; }
+
+img { display: block; max-width: 100%; }
+
+a img { border: none; }
+
+i { font-style: normal; }
+b { font-weight: normal; }
+
+abbr, abbr[title], acronym { font-size: 75%; letter-spacing: 0.2em; text-transform: uppercase; border: none; cursor: help; }
+
+code { font: 1.4rem/1 Consolas, 'Courier New', Courier, monospace; color: #999; }
+
+sub, sup { line-height: 0; }
+
+::selection { background: #2a69c2; color: #fff; }
+::-moz-selection { background: #2a69c2; color: #fff; }
+
+
+/*-------------------------------------------    
+    Global
+-------------------------------------------*/
+ 
+/* Phark Image Replacement - http://phark.typepad.com/phark/2003/08/accessible_imag.html */
+.phark { display: block; text-indent: -9999px; background-position: 0 0; background-repeat: no-repeat; background-color: transparent; }
+
+/* Trimming Outline in Firefox - http://snook.ca/archives/html_and_css/trimming_long_o  */
+/*\*/ .phark-link { overflow: hidden; } /**/
+
+/* Easy Clearing - http://www.positioniseverything.net/easyclearing.html */ 
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.offscreen { position: absolute; left: -9999px; display: block; }
+.onscreen { left: 0; }
+
+.hide { display: none; }
+
+.no-bullets { list-style: none; }
+
+.bulleted { list-style: disc; }
+
+.uppercase { text-transform: uppercase; }
+
+.rwd-break { display: block; }
+
+.inner { width: 100%; max-width:960px; margin:0 auto; }
+
+/*-------------------------------------------    
+	Modules
+-------------------------------------------*/
+
+.banner { border-bottom:1px solid #fff; position: relative; }
+
+.banner-left { width:50%; float:left; background:url(/-/i/dash.png) no-repeat; background-size:3px; background-position: 0px 81px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;  }
+
+.banner-right { width:50%; float:right; }
+
+.banner-left .inner { padding-left:1.8em; }
+
+.oscillate-right-tab { text-align: center; }
+
+.banner-innards {padding-left:35px;}
+
+.banner-heading { margin-top:7.35em; color:#787775; text-transform: uppercase; font-size: 2.5rem; }
+
+.banner-content { font-size: 16px; font-size: 1.6rem; color:#8f8e8b; }
+
+.banner-site-link { font-family: 'PT Mono', sans-serif; text-transform: uppercase; font-size: 13px; font-size: 1.3rem; }
+
+.banner-skills-feature { display:inline; margin-right:1em; padding:0.4em; font-family: 'PT Mono', sans-serif; font-size:12px; font-size:1.2rem; text-transform: uppercase; }
+
+.banner-left .banner-more { position:absolute; top:0; font-size: 11px; font-size: 1.1rem; height: 10px; }
+
+.banner-left .banner-more:before { content: ""; display: inline-block; background: #2d2c2d; height: 84px; position: relative; width: 84px; box-shadow: 6px 6px 0 -1px #d4d3ce; }
+
+.banner-left .banner-more:after { content: ""; display: inline-block; border-left: 60px solid transparent; border-right: 60px solid transparent; border-bottom: 60px solid #b1b0ac; transform: rotate(135deg); -ms-transform: rotate(135deg); -webkit-transform: rotate(135deg); position: relative; left: -165px; top: 9px; }
+
+.banner-left .banner-more-link { position: relative; left: 20px; top:20px; font-family: 'PT Mono', sans-serif; text-transform: uppercase; }
+
+.banner-bomb { float:right; }
+
+
+
+
+/*-------------------------------------------    
+	Intro
+-------------------------------------------*/
+
+.intro { text-align: center; }
+
+.intro-logo { width:40rem; margin:4em auto 0.25em; }
+
+.intro-pitch { font-size:13px; font-size:1.3rem; font-family:'PT Mono', sans-serif; text-transform: uppercase; }
+
+.intro-mail { margin-bottom:5em; }
+
+/*-------------------------------------------    
+	Pixelingo
+-------------------------------------------*/
+
+.pixelingo { background:#dfded9; overflow:hidden; }
+
+.pixelingo .banner-site-link { color:#d12221; }
+
+.pixelingo .banner-skills-feature { background:#d4d3ce;}
+
+/*-------------------------------------------    
+	NewsWorks
+-------------------------------------------*/
+
+.newsworks { background:#2c2c2c; overflow: hidden; }
+
+.newsworks .banner-heading { color:#dcdcdc; }
+
+/*-------------------------------------------    
+	Carolina Painting
+-------------------------------------------*/
+
+.cp { background: #3a3a3a; overflow: hidden; }
+
+/*-------------------------------------------    
+	$%$%$ %$%$%$
+-------------------------------------------*/
+
+.tc { background: url(/-/i/tc-back.png) repeat; overflow:hidden; }
+
+.strike { background:#022500; display:inline-block; color:transparent; }
+
+/*-------------------------------------------    
+	BearSkinRug
+-------------------------------------------*/
+
+.bear { background:#ededed; overflow:hidden; }
+
+/*-------------------------------------------    
+	Typedia
+-------------------------------------------*/
+
+.typedia { background:#494540; overflow: hidden; }
+
+/*-------------------------------------------    
+	The Businessolgy Show
+-------------------------------------------*/
+
+.business { background:#3b3a3b; overflow:hidden; }
+
+/*-------------------------------------------    
+	Footer
+-------------------------------------------*/
+
+.footer { text-align: center; }
+
+
+
+
+
