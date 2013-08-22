@@ -24,14 +24,15 @@
             <h2 class="intro-pitch">Web Developer for hire</h2>
             <p class="intro-slogan">Former developer apprentice at <a href="superfriend.ly" class="intro-link">SuperFriendly</a>. Jack of all trades, Master of some.</p>
 
-            <p class="intro-mail"><a href="mailto:greg@gmail.com" class="intro-mail-link">Let's Talk</a></p>
+            <p class="intro-mail"><a href="mailto:gregsarault@gmail.com" class="intro-mail-link">Let's talk.</a></p>
         </div><!-- .inner -->    
     </section><!-- .intro -->
 
 
     <!-- ========= Banner (Pixelingo) LEFT TAB ======== -->
+
     <section class="banner pixelingo oscillate-left-tab">
-        <div class="inner">
+        <div class="inner clearfix guts" id="pixelingo">
             <div class="banner-left">
                 <div class="banner-innards">
                     <h1 class="banner-heading">Pixelingo</h1>
@@ -45,127 +46,136 @@
                         <li class="banner-skills-feature">Physics</li>
                     </ul><!-- .banner-skills -->
                 </div><!-- .banner-innards -->
-                <p class="banner-more"><a href="/pixlingo" class="banner-more-link">See the code</a></p>
+                <a href="/pixelingo" data-before data-target="#pixelingo" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
             <div class="banner-right">
-                <img class="banner-bomb" src="http://placebear.com/500/465" alt="Pixelingo" />
+                <img class="banner-bomb" src="/-/i/cover-pixelingo.jpg" alt="Pixelingo" />
             </div><!-- .baner-right -->
-        </div><!-- .inner -->
+        </div><!-- .inner #pixelingo -->
     </section><!-- .banner .pixelingo -->
 
 
     <!-- ========= Banner (NewsWorks) RIGHT TAB no image ======== -->
 
-    <section class="banner newsworks oscillate-right-tab ">
-        <div class="inner">
-            <h1 class="banner-heading">NewsWorks</h1>
-            <p class="banner-content">Working with Kevin Hoffmen - I Used Twitter-BootStrap and also Practicing SMACCS and Harry Roberts methods of CSS selector intent.</p>
-            <p class="banner-site">Not yet live</p>
-            <ul class="banner-skills">
-                <li class="banner-skills-feature">HTML</li>
-                <li class="banner-skills-feature">CSS3</li>
-                <li class="banner-skills-feature">JS(Jquery)</li>
-                <li class="banner-skills-feature">interpretation</li>
-                <li class="banner-skills-feature">Ping Pong</li>
-            </ul><!-- .banner-skills -->
-            <p class="banner-more"><a href="/newsworks">See the code</a></p>
+    <section class="banner newsworks oscillate-right-tab">
+        <div class="inner clearfix guts" id="newsworks">
+            <div class="no-image">
+                <h1 class="banner-heading">NewsWorks</h1>
+                <p class="banner-content">Working with Kevin Hoffmen - I Used Twitter-BootStrap and also Practicing SMACCS and Harry Roberts methods of CSS selector intent.</p>
+                <p class="banner-site">Not yet live</p>
+                <ul class="banner-skills">
+                    <li class="banner-skills-feature">HTML</li>
+                    <li class="banner-skills-feature">CSS3</li>
+                    <li class="banner-skills-feature">JS(Jquery)</li>
+                    <li class="banner-skills-feature">interpretation</li>
+                    <li class="banner-skills-feature">Ping Pong</li>
+                </ul><!-- .banner-skills -->
+            </div><!-- .no-image -->
+            <a href="/newsworks" data-before data-target="#newsworks" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
         </div><!-- .inner -->
-    </section><!-- .banner .pixelingo -->
+    </section><!-- .banner .newsworks -->
 
 
 
     <!-- ========= Banner (Carolina Painting) LEFT TAB ======== -->
 
     <section class="banner cp oscillate-left-tab">
-        <div class="inner">
+        <div class="inner clearfix guts" id="cp" >
             <div class="banner-left">
                 <div class="banner-innards">
                     <h1 class="banner-heading">Carolina Painting</h1>
-                    <p class="banner-content">Building this site with creative plugins and a some function oriented Java Script. Developed both Front and Back-end.</p>
+                    <p class="banner-content">Building this site with a couple of plugins and some function oriented Java Script. Developed both Front-end and Back-end.</p>
                     <p class="banner-site"><a href="carolinapainting.com" class="banner-site-link">CarolinaPainting.com</a></p>
                     <ul class="banner-skills">
                         <li class="banner-skills-feature">HTML</li>
                         <li class="banner-skills-feature">CSS3</li>
                         <li class="banner-skills-feature">JS(Jquery)</li>
-                        <li class="banner-skills-feature">EE</li>
-                        <li class="banner-skills-feature"></li>
+                        <li class="banner-skills-feature"><abbr title="Expression Engine">EE</abbr></li>
+                        <li class="banner-skills-feature">Jedi Master</li>
                     </ul><!-- .banner-skills -->
                 </div><!-- .banner-innards -->
-                <p class="banner-more"><a href="/cp" class="banner-more-link">See the code</a></p>
+                <a href="/cp" data-before data-target="#cp" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
             <div class="banner-right">
-                <img class="banner-bomb" src="http://placebear.com/501/465" alt="Carolina Painting" />
+                <img class="banner-bomb" src="/-/i/cover-cp.jpg" alt="Carolina Painting" />
             </div><!-- .banner-right -->
         </div><!-- .inner -->
-    </section><!-- .banner .pixelingo -->
+    </section><!-- .banner .cp -->
 
     <!-- ========= Banner (TC) RIGHT TAB no image ======== -->
 
     <section class="banner tc oscillate-right-tab">
-        <div class="inner">
-            <h1 class="banner-heading"><span class="strike">%$%$ %$*$*$</span></h1>
-            <p class="banner-content">Worked with Brad Frost on the redesign of <span class="strike">%$%$ %$*$*$</span>. Learned Sass over night, and used/test Brad Frost's <a href="http://patternlab.bradfrostweb.com/">Patterns Lab</a>before he release it.</p>
-            <p class="banner-site">Not yet live</p>
-            <ul class="banner-skills">
-                <li class="banner-skills-feature">Sass</li>
-                <li class="banner-skills-feature">Gradients</li>
-                <li class="banner-skills-feature">SVG's</li>
-                <li class="banner-skills-feature"></li>
-                <li class="banner-skills-feature">Patterns</li>
-            </ul><!-- .banner-skills -->
-            <p class="banner-more"><a href="/blank" class="banner-more-link">See the code</a></p>
+        <div class="inner clearfix guts" id="tc">
+            <div class="no-image">
+                <h1 class="banner-heading"><span class="strike">No Peaking</span></h1>
+                <p class="banner-content">Worked with Brad Frost on the redesign of <span class="strike">Caught ya looking.</span>. Learned Sass over night, and used/test Brad Frost's <a href="http://patternlab.bradfrostweb.com/" class="banner-content-link">Patterns Lab</a> before he release it.</p>
+                <p class="banner-site">Not yet live</p>
+                <ul class="banner-skills">
+                    <li class="banner-skills-feature">Sass</li>
+                    <li class="banner-skills-feature">Gradients</li>
+                    <li class="banner-skills-feature">SVG's</li>
+                    <li class="banner-skills-feature">Sand Sculptures</li>
+                    <li class="banner-skills-feature">Patterns</li>
+                </ul><!-- .banner-skills -->
+            </div><!-- .no-image -->
+            <a href="/blank" data-before data-target="#tc" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
         </div><!-- .inner -->
-    </section><!-- .banner .pixelingo -->
+
+
+
+    </section><!-- .banner .tc -->
 
     <!-- ========= Banner (BearSkinRug) LEFT TAB ======== -->
     
     <section class="banner bear oscillate-left-tab">
-        <div class="inner">
+        <div class="inner clearfix guts" id="bear">
             <div class="banner-left">
                 <div class="banner-innards">
                     <h1 class="banner-heading">BearSkinRug</h1>
-                    <p class="banner-content">Towards the very end of this project, I was called in to hack my way through an already built <abbr title="Content Management System">CMS</abbr> (WordPress). Making extream adjustment across this site.</p>
+                    <p class="banner-content">Towards the very end of this project, I was called in to hack my way through an already built <abbr title="Content Management System">CMS</abbr> (WordPress). Making extreme adjustment across this site.</p>
                     <p class="banner-site"><a href="bearskinrug.co.uk" class="banner-site-link">bearskinrug.co.uk</a></p>
                     <ul class="banner-skills">
                         <li class="banner-skills-feature">PHP</li>
                         <li class="banner-skills-feature">CSS3</li>
                         <li class="banner-skills-feature">Conditionals</li>
-                        <li class="banner-skills-feature">Bear Fighting</li>
+                        <li class="banner-skills-feature">Bear Fights</li>
                         <li class="banner-skills-feature">Magic</li>
                     </ul><!-- .banner-skills -->
                 </div><!-- .banner-innards -->
-                <p class="banner-more"><a href="/bearskin" class="banner-more-link">See the code</a></p>
+                <a href="/bear" data-before data-target="#bear" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
             <div class="banner-right">
-                <img class="banner-bomb" src="http://placebear.com/499/465" alt="BearSkinRug" />
+                <img class="banner-bomb" src="/-/i/cover-bear.jpg" alt="BearSkinRug" />
             </div><!-- .banner-right -->
         </div><!-- .inner -->
-    </section><!-- .banner .pixelingo -->
+    </section><!-- .banner .bear -->
 
 
     <!-- ========= Banner (Typedia) RIGHT TAB no image ======== -->
 
     <section class="banner typedia oscillate-right-tab">
-        <div class="inner">
-            <h1 class="banner-heading">Typedia</h1>
-            <p class="banner-content">Weekly meeting's with Jason Santa Maria, Dave Dawson, Dan Mall, and Vector (Featuring Matt Weinberg). Brought on to this project to learn, and ended up taking on as much as I could to get this project finished.</p>
-            <p class="banner-site">Not yet live</p>
-            <ul class="banner-skills">
-                <li class="banner-skills-feature">HTML</li>
-                <li class="banner-skills-feature">CSS3</li>
-                <li class="banner-skills-feature">JS(Jquery)</li>
-                <li class="banner-skills-feature">Canvas</li>
-                <li class="banner-skills-feature">Ajax</li>
-            </ul><!-- .banner-skills -->
-            <p class="banner-more"><a href="/typedia" class="banner-more-link">See the code</a></p>
+        <div class="inner clearfix guts" id="typedia">
+            <div class="no-image">
+                <h1 class="banner-heading">Typedia</h1>
+                <p class="banner-content">Weekly meeting's with Jason Santa Maria, Dave Dawson, Dan Mall, and Vector (Featuring Matt Weinberg). Brought on to this project to learn, and ended up taking on as much as I could to get this project finished.</p>
+                <p class="banner-site">Not yet live</p>
+                <ul class="banner-skills">
+                    <li class="banner-skills-feature">HTML</li>
+                    <li class="banner-skills-feature">CSS3</li>
+                    <li class="banner-skills-feature">JS(Jquery)</li>
+                    <li class="banner-skills-feature">Canvas</li>
+                    <li class="banner-skills-feature">Ajax</li>
+                </ul><!-- .banner-skills -->
+            </div><!-- .no-image -->
+            <a href="/typedia" data-before data-target="#typedia" class="banner-more"><span class="banner-more-link">See the code</span></a>
         </div><!-- .inner -->
-    </section><!-- .banner .pixelingo -->
+    </section><!-- .banner .typedia -->
 
 
     <!-- ========= Banner (Businessology) LEFT TAB ======== -->
     
     <section class="banner business oscillate-left-tab">
-        <div class="inner">
+        <div class="inner clearfix guts" id="business">
             <div class="banner-left">
                 <div class="banner-innards">
                     <h1 class="banner-heading">The Businessology Show</h1>
@@ -175,28 +185,26 @@
                         <li class="banner-skills-feature">HTML</li>
                         <li class="banner-skills-feature">CSS3</li>
                         <li class="banner-skills-feature">WordPress</li>
-                        <li class="banner-skills-feature">Expression Engine</li>
-                        <li class="banner-skills-feature">Repatition</li>
+                        <li class="banner-skills-feature"><abbr title="Expression Engine">EE</abbr></li>
+                        <li class="banner-skills-feature">Repetition</li>
                     </ul><!-- .banner-skills -->
                 </div><!-- .banner-innards -->
-                <p class="banner-more"><a href="/business" class="banner-more-link">See the code</a></p>
+                <a href="/business" data-before data-target="#business" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
             <div class="banner-right">
-                <img class="banner-bomb" src="http://placebear.com/500/466" alt="The Businessology Show" />
+                <img class="banner-bomb" src="/-/i/cover-business.jpg" alt="The Businessology Show" />
             </div><!-- .banner-right -->
         </div><!-- .inner -->
-    </section><!-- .banner .pixelingo -->
+    </section><!-- .banner .business -->
 
 
     <!-- ========= Banner Footer ======== -->
 
     <section class="footer">
         <div class="inner">
-            <h1 class="footer-email"><a href="mailto:gregsarault@gmail.com">GregSarault@gmail.com</a></h1>
-            <p class="footer-twitter">GregSarault</p>
-            <p class="copyright">2013</p>
-
-
+            <p class="footer-email"><a href="mailto:gregsarault@gmail.com">GregSarault<span class="at">@</span>gmail.com</a></p>
+            <p class="footer-twitter"><a href="https://twitter.com/GregSarault" class="twitter-follow-button" data-show-count="false"><span class="at">@</span>GregSarault</a></p>
+            <p class="footer-copyright">&copy;2013</p>
         </div><!-- .inner -->    
     </section><!-- .footer -->
 
