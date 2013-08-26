@@ -48,10 +48,11 @@
                 </div><!-- .banner-innards -->
                 <a href="/pixelingo" data-before data-target="#pixelingo" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
-            <div class="banner-right">
-                <img class="banner-bomb" src="/-/i/cover-pixelingo.jpg" alt="Pixelingo" />
-            </div><!-- .baner-right -->
+            
         </div><!-- .inner #pixelingo -->
+        <div class="banner-right">
+               <!--  <div class="empty-divs-are-bad-form"></div> -->
+            </div><!-- .baner-right -->
     </section><!-- .banner .pixelingo -->
 
 
@@ -75,8 +76,6 @@
         </div><!-- .inner -->
     </section><!-- .banner .newsworks -->
 
-
-
     <!-- ========= Banner (Carolina Painting) LEFT TAB ======== -->
 
     <section class="banner cp oscillate-left-tab">
@@ -96,10 +95,8 @@
                 </div><!-- .banner-innards -->
                 <a href="/cp" data-before data-target="#cp" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
-            <div class="banner-right">
-                <img class="banner-bomb" src="/-/i/cover-cp.jpg" alt="Carolina Painting" />
-            </div><!-- .banner-right -->
         </div><!-- .inner -->
+        <div class="banner-right"></div><!-- .banner-right -->
     </section><!-- .banner .cp -->
 
     <!-- ========= Banner (TC) RIGHT TAB no image ======== -->
@@ -143,11 +140,9 @@
                     </ul><!-- .banner-skills -->
                 </div><!-- .banner-innards -->
                 <a href="/bear" data-before data-target="#bear" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
-            </div><!-- .banner-left -->
-            <div class="banner-right">
-                <img class="banner-bomb" src="/-/i/cover-bear.jpg" alt="BearSkinRug" />
-            </div><!-- .banner-right -->
+            </div><!-- .banner-left -->    
         </div><!-- .inner -->
+        <div class="banner-right"></div><!-- .banner-right -->
     </section><!-- .banner .bear -->
 
 
@@ -191,10 +186,8 @@
                 </div><!-- .banner-innards -->
                 <a href="/business" data-before data-target="#business" data-media="(min-width: 800px)" class="banner-more"><span class="banner-more-link">See the code</span></a>
             </div><!-- .banner-left -->
-            <div class="banner-right">
-                <img class="banner-bomb" src="/-/i/cover-business.jpg" alt="The Businessology Show" />
-            </div><!-- .banner-right -->
         </div><!-- .inner -->
+        <div class="banner-right"></div><!-- .banner-right -->
     </section><!-- .banner .business -->
 
 
@@ -207,7 +200,5 @@
             <p class="footer-copyright">&copy;2013</p>
         </div><!-- .inner -->    
     </section><!-- .footer -->
-
-
 
 <?php require($_SERVER["DOCUMENT_ROOT"]."/-/_inc/close.php"); echo "\n"; ?>    

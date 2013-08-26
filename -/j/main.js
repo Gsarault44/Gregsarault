@@ -32,8 +32,8 @@ $(document).ready (function () {
 	  	$('.closer').each(function(){
 
 	  		$(this).on('click', function(){
-    			$('.innards').slideUp('slow');
-    			$('.guts').slideDown('slow');
+    			$(this).parents('.banner').find('.innards').slideUp('slow');
+    			$(this).parents('.banner').find('.guts').slideDown('slow');
     		return false;
 			});
 	  	});
